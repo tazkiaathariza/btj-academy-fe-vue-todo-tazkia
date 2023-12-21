@@ -5,7 +5,3 @@ import toDoApp from './components/toDoApp.vue'
 <template>
   <toDoApp />
 </template>
-
-<style scoped>
-
-</style>
