@@ -10,10 +10,13 @@ git clone https://github.com/tazkiaathariza/btj-academy-fe-vue-todo-tazkia
 2. Jalankan `npm run dev`
 3. Buka di browser lokal `http://127.0.0.1:5173/`
 
-### Building
-1. Menerapkan two-way binding dengan `v-model`.
-2. Melakukan rendering list dengan `v-for`.
+## Building
+1. Menerapkan two-way binding dengan `v-model`
+2. Melakukan rendering list dengan `v-for`
 3. Class binding untuk mengatur style warna berdasarkan prioritas.
+4. Menggunakan attribute binding lainnya seperti `v-on:submit` atau `@submit` dan `v-on:click` atau `@click`
+5. Computed properties : untuk menghitung jumlah task berdasarkan prioritas secara dinamis.
+6. Method : berisi fungsi-fungsi untuk menambahkan task, memindahkan task ke 'done', melakukan 'undone', menghapus data dari kolom 'todo' maupun 'done'
 
 ## What you can do in this TODO App
 1. Menambahkan task baru yang akan disimpan di dalam local storage.
